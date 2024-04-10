@@ -11,8 +11,9 @@ public class Main {
 
         myMovie.technicalSheet();
         myMovie.evaluate(8);
-        myMovie.evaluate(5);
+        myMovie.evaluate(6);
         myMovie.evaluate(10);
+        myMovie.evaluate(4);
 
         System.out.println("Total de avaliações: " + myMovie.getTotalScore());
         System.out.println(myMovie.returRating());

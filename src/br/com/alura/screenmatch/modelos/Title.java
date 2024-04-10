@@ -9,6 +9,7 @@ public class Title {
     private int minuteLenght;
 
 
+
     public String getName() {
         return name;
     }
