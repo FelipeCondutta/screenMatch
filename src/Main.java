@@ -14,6 +14,7 @@ public class Main {
         myMovie.evaluate(6);
         myMovie.evaluate(10);
         myMovie.evaluate(4);
+        myMovie.evaluate(2);
 
         System.out.println("Total de avaliações: " + myMovie.getTotalScore());
         System.out.println(myMovie.returRating());
