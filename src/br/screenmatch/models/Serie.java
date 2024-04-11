@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.modelos;
+package br.screenmatch.models;
 
 public class Serie extends Title {
     private int seasons;

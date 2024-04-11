@@ -1,5 +1,6 @@
-import br.com.alura.screenmatch.modelos.Movie;
-import br.com.alura.screenmatch.modelos.Serie;
+import br.screenmatch.calculator.timeCalculator;
+import br.screenmatch.models.Movie;
+import br.screenmatch.models.Serie;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,5 +31,15 @@ public class Main {
         lost.setEpisodesPerSeason(10);
         lost.setEpisodeLenght(50);
         System.out.println("Duração em minutos: " + lost.getMinuteLenght());
+
+        Movie movie2 = new Movie();
+        movie2.setName("Avatar");
+        movie2.setRelease(2000);
+        movie2.setMinuteLenght(200);
+
+        timeCalculator calculator = new timeCalculator();
+        calculator.movieInclude(myMovie);
+        calculator.movieInclude(movie2);
+        System.out.println(calculator.getTotalTime());
     }
 }

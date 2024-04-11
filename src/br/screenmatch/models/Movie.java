@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.modelos;
+package br.screenmatch.models;
 
 public class Movie extends Title {
     private String diretor;
